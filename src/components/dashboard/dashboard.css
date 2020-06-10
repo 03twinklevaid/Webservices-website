@@ -1,0 +1,29 @@
+.dashboard {
+    min-height: 100vh;
+}
+
+.border {
+border: 2px solid #e9edef !important;
+border-radius: 20px;
+box-shadow: 20px 20px 10px #dee2e6;
+}
+
+.logo {
+background-color: #fbfbfb;
+padding: 20px;
+border-radius: 20px 0px 0px 20px;
+}
+
+.welcome {
+background-color: #f7cec1;
+padding: 20px;
+border-radius: 0px 20px 20px 0px;
+min-height: 90vh;
+}
+
+.stand-neck {
+background-color: #f4f4f4;
+border-radius: 22%;
+padding: 10px;
+box-shadow: 10px 5px 5px #d4d4d4;
+}

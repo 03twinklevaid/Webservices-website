@@ -1,0 +1,12 @@
+.logo-hr hr {
+    width: 9%;
+    height: 3px;
+    background-color: #f7cec1;
+    margin-top: 25vh;
+}
+h2 {
+    color: #535353;
+}
+h6 {
+    color: #acacac;
+}
