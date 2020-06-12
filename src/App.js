@@ -2,7 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Provider} from 'react-redux';
 import store from './redux/store';
-import Routing from '../src/routes';
+import Home from './components/home/home';
+// import Routing from '../src/routes';
 import './App.css';
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Provider store = {store}> 
-          <Routing />
+          <Home />
+          {/* <Routing /> */}
         </Provider>
       </header>
     </div>
