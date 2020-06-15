@@ -2,6 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Header from '../header/header';
+import SliderComponent from '../slider/slider';
 import Contact from '../contact/contactUs';
 import Container from 'react-bootstrap/Container';
 import {viewOfferings} from '../../redux/actions/action';
@@ -17,6 +18,7 @@ const Home = () => {
     return (
         <Container fluid>
             <Header />
+            <SliderComponent />
             <Row className="home-image">
                 <Col md="12">
                     <img src={require('../../images/creative-process.gif')} alt="creative gif"/>

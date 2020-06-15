@@ -29,7 +29,7 @@ const Contact = () => {
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                         </p>
                         <p>
-                            +91 987654321
+                            <a href="tel:+91 8860585403">+91 8860585403</a>
                         </p>
                     </Col>
                 </Col>
@@ -47,7 +47,7 @@ const Contact = () => {
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                         </p>
                         <button className="email-us-btn">
-                            Email us
+                            <a href="mailto:twinkle.vaid@gmail.com" target="_blank">Send Email</a>
                         </button>
                     </Col>
                 </Col>
