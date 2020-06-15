@@ -17,8 +17,16 @@ const Home = () => {
     const dispatch = useDispatch();
     return (
         <Container fluid>
-            <Header />
-            <SliderComponent />
+            <Row>
+                <Col md="12">
+                    <Header />
+                </Col>
+            </Row>
+            <Row>
+                <Col md="12">
+                    <SliderComponent />
+                </Col>
+            </Row>
             <Row className="home-image">
                 <Col md="12">
                     <img src={require('../../images/creative-process.gif')} alt="creative gif"/>

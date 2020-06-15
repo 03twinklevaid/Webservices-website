@@ -4,12 +4,12 @@
 .header-wrapper {
     padding: 5px;
     position: fixed;
-    top: 0px;
+    top: 35px;
     width: 100%;
     z-index: 12;
     cursor: pointer;
     justify-content: flex-end;
-    background-image: linear-gradient( -25deg,#5ac7cc 20%, #113745 20%);
+    /* background-image: linear-gradient( -25deg,#5ac7cc 20%, #113745 20%); */
 }
 
 .header-Content {
@@ -20,7 +20,8 @@
 
 .header-Content h6 {
     color: #fff;
-    font-weight: 500px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .header-Content h6:hover {

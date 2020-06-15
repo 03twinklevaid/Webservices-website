@@ -17,7 +17,7 @@ const Header = () => {
                     <strong><h6>ABOUT US</h6></strong>
                 </Col>
                 <Col md="3" sm="3" xs="3" className="header-Content">
-                    <strong><h6>OUR SERVICES</h6></strong>
+                    <strong><h6>SERVICES</h6></strong>
                 </Col>
                 <Col md="3" sm="3" xs="3" className="contact-btn header-Content">
                     <button>

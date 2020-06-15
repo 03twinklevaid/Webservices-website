@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from '../logo/logo';
-import Welcome from '../welcome/welcome';
+import Welcome from '../../welcome/welcome';
 import './dashboard.css';
 
 function Dashboard() {
