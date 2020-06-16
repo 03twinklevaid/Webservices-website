@@ -55,13 +55,3 @@
 .text-shadow {
     text-shadow: 2px 2px 3px white;
 }
-
-/* Bootstrap css */
-.navbar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 12;
-    width: 100%;
-}
