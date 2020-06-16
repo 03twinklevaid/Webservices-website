@@ -2,14 +2,19 @@
     margin-bottom: 20vh;
 }
 .header-wrapper {
-    padding: 5px;
+    padding: 15px;
     position: fixed;
     top: 35px;
     width: 100%;
     z-index: 12;
     cursor: pointer;
     justify-content: flex-end;
-    /* background-image: linear-gradient( -25deg,#5ac7cc 20%, #113745 20%); */
+}
+
+.header-bg {
+    top: 0;
+    background: rgba(27,40,53,.7);
+    transition: 0.3s;
 }
 
 .header-Content {
@@ -49,4 +54,14 @@
 
 .text-shadow {
     text-shadow: 2px 2px 3px white;
+}
+
+/* Bootstrap css */
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 12;
+    width: 100%;
 }

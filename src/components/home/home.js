@@ -1,7 +1,8 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Header from '../header/header';
+// import Header from '../header/header';
+import Navigation from '../header/nav';
 import SliderComponent from '../slider/slider';
 import Contact from '../contact/contactUs';
 import Container from 'react-bootstrap/Container';
@@ -18,8 +19,8 @@ const Home = () => {
     return (
         <Container fluid>
             <Row>
-                <Col md="12">
-                    <Header />
+                <Col md="12" className="p-0">
+                    <Navigation />
                 </Col>
             </Row>
             <Row>
@@ -27,14 +28,14 @@ const Home = () => {
                     <SliderComponent />
                 </Col>
             </Row>
-            <Row className="home-image">
+            {/* <Row className="home-image">
                 <Col md="12">
                     <img src={require('../../images/creative-process.gif')} alt="creative gif"/>
                 </Col>
                 <Col md = "12" className="home-image-overlay-typewriter">
                     <h6>Welcome to Twinkle.com</h6>
                 </Col>
-            </Row>
+            </Row> */}
             <Row className="home-hr">
                 <Col md="12">
                     <hr />
@@ -47,7 +48,7 @@ const Home = () => {
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
                     </p>
                 </Col>
-                <Col md="12">
+                <Col md="12" className="p-0">
                     <Technologies />
                 </Col>
                 <Col md="12" className="our-offerings">
