@@ -4,7 +4,7 @@ import {Provider} from 'react-redux';
 import store from './redux/store';
 import Home from './components/home/home';
 // import Routing from '../src/routes';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
