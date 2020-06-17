@@ -3,7 +3,6 @@ const initialState = {
 }
 
 const viewOfferingsReducer = (state = initialState, action) => {
-    console.log("statekkkkk", state);
     switch (action.type) {
         case 'VIEW_OFFERINGS' : return {    
             ...state,

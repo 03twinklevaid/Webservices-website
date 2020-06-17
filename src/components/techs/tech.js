@@ -15,36 +15,36 @@ const Technologies = () =>{
                 </Col>
                 <Col md={{span:"5", offset:"7"}} className="tech-section-content">
                     <Row className="tech-content-wrapper mb-4">
-                        <Col md="2" className="icon-wrapper">
+                        <Col md="2" sm="6" xs="6" className="icon-wrapper">
                             hh
                             <br/>
                             jj
                             <br />
                         </Col>
-                        <Col md="2" className="icon-wrapper">
+                        <Col md="2" sm="6" xs="6" className="icon-wrapper">
                             uu
                         </Col>
-                        <Col md="2" className="icon-wrapper">
+                        <Col md="2" sm="6" xs="6" className="icon-wrapper">
                             pp
                         </Col>
-                        <Col md="2" className="icon-wrapper">
+                        <Col md="2" sm="6" xs="6" className="icon-wrapper">
                             rr
                         </Col>
                     </Row>
                     <Row className="tech-content-wrapper">
-                        <Col md="2" className="icon-wrapper">
+                        <Col md="2" sm="6" xs="6" className="icon-wrapper">
                             hh
                             <br/>
                             jj
                             <br />
                         </Col>
-                        <Col md="2" className="icon-wrapper">
+                        <Col md="2" sm="6" xs="6" className="icon-wrapper">
                             uu
                         </Col>
-                        <Col md="2" className="icon-wrapper">
+                        <Col md="2" sm="6" xs="6" className="icon-wrapper">
                             pp
                         </Col>
-                        <Col md="2" className="icon-wrapper">
+                        <Col md="2" sm="6" xs="6" className="icon-wrapper">
                             rr
                         </Col>
                     </Row>

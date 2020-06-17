@@ -14,7 +14,6 @@ class Navigation extends Component {
     }
     componentDidMount() {
         window.addEventListener('scroll', () => {
-            console.log("offset", window.scrollY);
             if(window.scrollY > 520) {
                 this.setState({
                     activeClass: 'header-bg'
@@ -34,11 +33,19 @@ class Navigation extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                <Nav.Link href="#home">HOME</Nav.Link>
-                <Nav.Link href="#link">ABOUT US</Nav.Link>
-                <Nav.Link href="#services">SERVICES</Nav.Link>
-                <Form inline>
-                    <Button variant="outline-success">Contact us</Button>
+                <Nav className="ml-3 mt-2">
+                    HOME
+                </Nav>
+                <Nav className="ml-3 mt-2">
+                    ABOUT US
+                </Nav>
+                <Nav className="ml-3 mt-2">
+                    SERVICES
+                </Nav>
+                <Form inline className="ml-3">
+                    <Button variant="outline-success">
+                        Contact us
+                    </Button>
                 </Form>
                 </Nav>
             </Navbar.Collapse>
