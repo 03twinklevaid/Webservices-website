@@ -14,7 +14,6 @@ class Header extends Component {
     }
     componentDidMount() {
         window.addEventListener('scroll', () => {
-            console.log("offset", window.scrollY);
             if(window.scrollY > 520) {
                 this.setState({
                     activeClass: 'header-bg'
@@ -28,7 +27,6 @@ class Header extends Component {
         });
     }
     render() {
-        console.log("state", this.state)
         return (
             <Row className={`header-wrapper ${this.state.activeClass}`}>
             <Col md="6" className="d-flex">
