@@ -11,7 +11,7 @@ import Container from 'react-bootstrap/Container';
 import {viewOfferings} from '../../redux/actions/action';
 import {viewLess} from '../../redux/actions/action';
 import './home.scss';
-import {useSelector, useDispatch, connect} from 'react-redux';
+import {connect} from 'react-redux';
 
 class Home extends Component {
     constructor () {
@@ -63,15 +63,11 @@ class Home extends Component {
                 </Row> */}
                 <Row className="home-hr">
                     <About/>
-                    <Col md="12" className="p-0">
-                        <Technologies />
-                    </Col>
+                    <Technologies />
                     <Col md="12" className="our-offerings">
-                        <Col md="12" className="home-hr">
-                            <hr />
-                        </Col>
-                        <Col md="12">
+                        <Col md="12" className="text-left">
                             <h1>Our Offerings</h1>
+                            <hr />
                         </Col>
                         <Row className="p-20">
                             <Col md="4">
@@ -180,9 +176,7 @@ class Home extends Component {
                             </Row>
                         }
                     </Col>
-                    <Col md="12" className="p-0">
-                        <Contact />
-                    </Col>
+                    <Contact />
                     <div className={`scroll-to-top ${this.state.activeScrollTop}`} onClick={this.scrollTop}>
                         <span>
                             A

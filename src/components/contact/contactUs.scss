@@ -1,33 +1,49 @@
 .fs-14 {
     font-size: 14px;
 }
-
-.contact-us-wrapper {
-    justify-content: center;
-}
-
-.contact-us-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 0;
-}
-
-.contact-us-banner img{
+.contact {
     width: 100%;
 }
+.contact-banner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url('../../images/two-white-message-balloons-1111368.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-attachment: fixed;
+    background-position: center;
+}
 
-.contact-us-banner::after {
+.contact-banner::after {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    background-image: linear-gradient(127deg, #113745 0%, #113745 91%);
-    opacity: .6;
+    height: 100vh;
+    left: 0;
+    opacity: 0.6;
+    background-image: linear-gradient(127deg, #e1e1e1 0%, #e1e1e1 91%);
+    z-index: 3;
 }
+
+.contact-hr {
+    background: #fff !important;
+    float: right;
+}
+
+// .contact-us-wrapper {
+//     justify-content: center;
+// }
+
+// .contact-us-banner {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: relative;
+//     z-index: 0;
+// }
 .overlay-text {
     position: absolute;
     z-index: 10;

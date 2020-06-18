@@ -1,20 +1,22 @@
 import React from 'react';
-import './contactUs.css';
+import './contactUs.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 const Contact = () => {
     return (
-        <Container fluid>
+        <div className="contact">
+            <div className="contact-banner" >
+                <Container>
+                    <Col md="12" className="text-right">
+                        <h1>Contact Us</h1>
+                        <hr className="contact-hr"/>
+                    </Col>                    
+                </Container>
+            </div>
+            <Container>
             <Row className="contact-us-wrapper">
-                <Col md="12" className="contact-us-banner p-0">
-                    <img src={require('../../images/Contact-Us.png')} />
-                    <h1 className="overlay-text">Contact Us</h1>
-                    {/* <h6 className="overlay-text-content">
-                        Want to get in touch?We'd love to hear from you.Here's how you can reach us...
-                    </h6> */}
-                </Col>
                 <Col md="4" className="contact-card-call">
                     <Col md="12" className="offerings-img-wrapper d-flex">
                         <img src={require('../../images/dropdown-icon1.png')} />
@@ -52,7 +54,8 @@ const Contact = () => {
                     </Col>
                 </Col>
             </Row>
-        </Container>
+            </Container>
+        </div>
     )
 }
 export default Contact;
