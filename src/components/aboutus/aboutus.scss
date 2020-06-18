@@ -11,6 +11,33 @@
   background-position: center;
 }
 
+// .fold {
+//   background: transparent;
+// }
+
+// .about-us__text::before {
+//   content:"";
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   border-style: solid;
+//   border-width: 0 80px 80px 0;
+//   border-color: #ddd transparent;
+//   transition: all ease 0.5s;
+// }
+
+// .about-us__text:hover::before {
+//   border-width: 0 150px 150px 0;
+//   border-color: #eee transparent;
+// }
+
+.about-us__text {
+  position: relative;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 1px 140px 30px 30px;
+  border: 1px solid transparent;
+}
 .about-us__text p {
   text-align: justify;
   line-height: 30px;
