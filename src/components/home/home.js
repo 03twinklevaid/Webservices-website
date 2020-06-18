@@ -4,12 +4,13 @@ import Col from 'react-bootstrap/Col';
 // import Header from '../header/header';
 import Navigation from '../header/nav';
 import About from '../aboutus/aboutus';
+import Technologies from '../techs/tech';
 import SliderComponent from '../slider/slider';
 import Contact from '../contact/contactUs';
 import Container from 'react-bootstrap/Container';
 import {viewOfferings} from '../../redux/actions/action';
 import {viewLess} from '../../redux/actions/action';
-import './home.css';
+import './home.scss';
 import {useSelector, useDispatch, connect} from 'react-redux';
 
 class Home extends Component {
@@ -23,7 +24,7 @@ class Home extends Component {
         window.addEventListener('scroll', () => {
             if(window.scrollY > 572) {
                 this.setState({
-                    activeScrollTop: 'scroll-to-top'
+                    activeScrollTop: 'active'
                 })
             }
             else if(window.scrollY < 572) {
@@ -61,10 +62,10 @@ class Home extends Component {
                     </Col>
                 </Row> */}
                 <Row className="home-hr">
-                    <Col md="12">
-                        <hr />
-                    </Col>
                     <About/>
+                    <Col md="12" className="p-0">
+                        <Technologies />
+                    </Col>
                     <Col md="12" className="our-offerings">
                         <Col md="12" className="home-hr">
                             <hr />
@@ -182,7 +183,7 @@ class Home extends Component {
                     <Col md="12" className="p-0">
                         <Contact />
                     </Col>
-                    <div className={`${this.state.activeScrollTop}`} onClick={this.scrollTop}>
+                    <div className={`scroll-to-top ${this.state.activeScrollTop}`} onClick={this.scrollTop}>
                         <span>
                             A
                         </span>

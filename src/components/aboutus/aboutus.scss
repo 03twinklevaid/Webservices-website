@@ -1,0 +1,17 @@
+.about-us {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url('../../images/rose-gold-apple-watch-with-pink-sport-band-near-eyeglasses-876467.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.about-us__text p {
+  text-align: justify;
+  line-height: 30px;
+  font-size: 18px;
+}
