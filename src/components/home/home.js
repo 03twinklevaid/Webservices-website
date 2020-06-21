@@ -12,6 +12,8 @@ import {viewOfferings} from '../../redux/actions/action';
 import {viewLess} from '../../redux/actions/action';
 import './home.scss';
 import {connect} from 'react-redux';
+import AOS from'aos';
+import 'aos/dist/aos.css';
 
 class Home extends Component {
     constructor () {
@@ -21,6 +23,10 @@ class Home extends Component {
         }
     }
     componentDidMount () {
+        AOS.init({
+            duration: 2000,
+            offset: 200
+        });
         window.addEventListener('scroll', () => {
             if(window.scrollY > 572) {
                 this.setState({
@@ -45,7 +51,7 @@ class Home extends Component {
             <Container fluid>
                 <Row>
                     <Col md="12" className="p-0">
-                        <Navigation aboutsection="about"/>
+                        <Navigation/>
                     </Col>
                 </Row>
                 <Row>

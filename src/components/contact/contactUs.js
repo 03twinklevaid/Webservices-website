@@ -3,13 +3,14 @@ import './contactUs.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Aos from 'aos';
 
 const Contact = () => {
     return (
         <div className="contact">
             <div className="contact-banner" >
                 <Container>
-                    <Col md="12" className="text-right">
+                    <Col md="12" className="text-right contact-banner__text"  data-aos="fade-right">
                         <h1>Contact Us</h1>
                         <hr className="contact-hr"/>
                     </Col>                    
@@ -17,7 +18,7 @@ const Contact = () => {
             </div>
             <Container>
             <Row className="contact-us-wrapper">
-                <Col md="4" className="contact-card-call">
+                <Col md="5" className="contact-card mr-4">
                     <Col md="12" className="offerings-img-wrapper d-flex">
                         <img src={require('../../images/dropdown-icon1.png')} />
                     </Col>
@@ -27,15 +28,12 @@ const Contact = () => {
                                 Talk to us
                             </strong>
                         </h5>
-                        <p className="fs-14">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                        </p>
                         <p>
                             <a href="tel:+91 8860585403">+91 8860585403</a>
                         </p>
                     </Col>
                 </Col>
-                <Col md="4" className="contact-card-email">
+                <Col md="5" className="contact-card ml-4">
                     <Col md="12" className="offerings-img-wrapper d-flex">
                         <img src={require('../../images/dropdown-icon1.png')} />
                     </Col>
@@ -45,9 +43,6 @@ const Contact = () => {
                                 Email us
                             </strong>
                         </h5>
-                        <p className="fs-14"> 
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                        </p>
                         <button className="email-us-btn">
                             <a href="mailto:twinkle.vaid@gmail.com" target="_blank">Send Email</a>
                         </button>

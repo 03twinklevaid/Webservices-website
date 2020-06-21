@@ -17,15 +17,19 @@
     background-position: center;
 }
 
-.contact-banner::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    left: 0;
-    opacity: 0.6;
-    background-image: linear-gradient(127deg, #e1e1e1 0%, #e1e1e1 91%);
-    z-index: 3;
+// .contact-banner::after {
+//     content: '';
+//     position: absolute;
+//     width: 100%;
+//     height: 100vh;
+//     left: 0;
+//     opacity: 0.6;
+//     background-image: linear-gradient(127deg, #e1e1e1 0%, #e1e1e1 91%);
+//     z-index: 3;
+// }
+
+.contact-banner__text {
+    color: #fff;
 }
 
 .contact-hr {
@@ -33,9 +37,9 @@
     float: right;
 }
 
-// .contact-us-wrapper {
-//     justify-content: center;
-// }
+.contact-us-wrapper {
+    justify-content: center;
+}
 
 // .contact-us-banner {
 //     display: flex;
@@ -59,24 +63,15 @@
     color: #fff;
 }
 
-.contact-card-call {
-    margin-top: 20px;
-    padding: 20px;
+.contact-card {
+    padding: 20px 20px 40px 20px;
     background-color: #fff;
-    box-shadow: 3px 4px 5px #efefef;
-    margin-right: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    margin-top: -100px;
     margin-bottom: 50px;
+    border: 1px solid transparent;
+    border-radius: 30px;
 }
-
-.contact-card-email {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 3px 4px 5px #efefef;
-    margin-left: 5px;
-    margin-bottom: 50px;
-}
-
 .email-us-btn {
     padding: 15px 25px;
     background-color: #ec5b3d;
