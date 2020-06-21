@@ -30,82 +30,82 @@
     background: #fff !important;
 }
 
-// .techs img {
-//     position: absolute;
-//     bottom: 0;
-// }
-// .tech-section {
-//     min-height: 500px;
-//     height: 100vh;
-//     position: relative;
-// }
+.techs img {
+    // position: absolute;
+    bottom: 0;
+}
+.tech-section {
+    min-height: 500px;
+    height: 100vh;
+    position: relative;
+}
 
-// .tech-section .tech-section-bg {
-//     position: absolute;
-//     width: 100%;
-//     height: 100vh;
-//     overflow: hidden;
-//     background-position: center center;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-attachment: fixed;
-// }
+.tech-section .tech-section-bg {
+    // position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-// .tech-section .tech-section-bg:before {
-//     content: '';
-//     position: absolute;
-//     width: 100%;
-//     height: 100vh;
-//     left: 0;
-//     opacity: 0.65;
-//     background-image: linear-gradient(127deg, #e1e1e1 0%, #e1e1e1 91%);
-//     z-index: 3;
-// }
+.tech-section .tech-section-bg:before {
+    content: '';
+    // position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    opacity: 0.65;
+    background-image: linear-gradient(127deg, #e1e1e1 0%, #e1e1e1 91%);
+    z-index: 3;
+}
 
-// .tech-section img {
-//     position: absolute;
-//     width: 100%;
-//     height: 100vh;
-//     bottom: -1px;
-//     left: 0px;
-//     right: 0px;
-//     z-index: 5;
-// }
+.tech-section img {
+    // position: absolute;
+    width: 100%;
+    height: 100vh;
+    bottom: -1px;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+}
 
-// .tech-section .tech-section-bg:after {
-//     content: '';
-//     position: absolute;
-//     width: 100%;
-//     height: 100vh;
-//     bottom: 0px;
-//     left: 0px;
-//     right: 0px;
-//     background: none;
-//     z-index: 6;
-// }
+.tech-section .tech-section-bg:after {
+    content: '';
+    // position: absolute;
+    width: 100%;
+    height: 100vh;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: none;
+    z-index: 6;
+}
 
 
-// .tech-section-bg {
-//     background-image: url('../../images/colored-pencils-and-water-color-beside-picture-frame-3774088.jpg');
-//     background-position: center;
-//     background-attachment: fixed;
-// } 
+.tech-section-bg {
+    background-image: url('../../images/colored-pencils-and-water-color-beside-picture-frame-3774088.jpg');
+    background-position: center;
+    background-attachment: fixed;
+} 
     
-// .tech-section-content {
-//     position: absolute;
-//     z-index: 10;
-//     color: red;
-//     top: 30%;
-// }
+.tech-section-content {
+    // position: absolute;
+    z-index: 10;
+    color: red;
+    top: 30%;
+}
 
-// .tech-content-wrapper {
-//     justify-content: space-evenly;
-// }
+.tech-content-wrapper {
+    justify-content: space-evenly;
+}
 
-// .icon-wrapper {
-//     background-color: #fff;
-//     border: 1px solid #fff;
-//     border-radius: 10px;
-//     padding: 5px;
-//     box-shadow: 2px 3px 4px #efefef;
-// }
+.icon-wrapper {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 3px 4px #efefef;
+}

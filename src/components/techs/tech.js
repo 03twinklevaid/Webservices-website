@@ -13,20 +13,17 @@ const Technologies = () =>{
                         </Col>
                         <Col className="tech-section-content">
                             <Row className="tech-content-wrapper mb-4">
-                                {/* <Col md="2" sm="6" xs="6" className="icon-wrapper">
-                                    hh
-                                    <br/>
-                                    jj
-                                    <br />
+                                <Col md="2" sm="6" xs="6" className="icon-wrapper">
+                                    <img className="img-fluid" src={require('../../images/Node.js_logo.svg')} />
                                 </Col>
                                 <Col md="2" sm="6" xs="6" className="icon-wrapper">
-                                    uu
+                                    <img className="img-fluid" src={require('../../images/ruby.svg')} />
                                 </Col>
                                 <Col md="2" sm="6" xs="6" className="icon-wrapper">
-                                    pp
+                                    <img className="img-fluid" src={require('../../images/mongodb-green-png-download-750750-free-transparent-mongodb-mongodb-png-900_760.jpg')} />
                                 </Col>
                                 <Col md="2" sm="6" xs="6" className="icon-wrapper">
-                                    rr
+                                    <img className="img-fluid" src={require('../../images/blockchain.jpg')} />
                                 </Col>
                             </Row>
                             <Row className="tech-content-wrapper">
@@ -44,7 +41,7 @@ const Technologies = () =>{
                                 </Col>
                                 <Col md="2" sm="6" xs="6" className="icon-wrapper">
                                     rr
-                                </Col> */}
+                                </Col>
                             </Row>
                         </Col>
                     </Row>

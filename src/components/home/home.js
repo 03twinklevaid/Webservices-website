@@ -178,9 +178,9 @@ class Home extends Component {
                     </Col>
                     <Contact />
                     <div className={`scroll-to-top ${this.state.activeScrollTop}`} onClick={this.scrollTop}>
-                        <span>
-                            A
-                        </span>
+                      <span className="material-icons-round">
+                        keyboard_arrow_up
+                      </span>
                     </div>
                 </Row>
             </Container>
