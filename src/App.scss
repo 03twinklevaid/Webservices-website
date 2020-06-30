@@ -1,6 +1,11 @@
 .App {
   text-align: center;
   font-family: 'Nunito';
+  // background: url('images/grey-abstract-wallpaper-3137055.jpg');
+  // // background: black;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
 }
 
 
@@ -14,6 +19,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -21,4 +27,15 @@
 
 * {
   box-sizing: border-box;
+}
+
+.whole-page-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("https://dogstudio.co/app/themes/portfolio-2018/static/assets/images/home/background-xl.png") no-repeat !important;
+  background-size: cover;
+  pointer-events: none;
 }

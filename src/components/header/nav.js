@@ -28,7 +28,7 @@ class Navigation extends Component {
     }
     render() {
         return (
-            <Navbar expand="lg" fixed="top" className={`${this.state.activeClass}`}>
+            <Navbar variant="dark" expand="lg" fixed="top" className={`${this.state.activeClass}`}>
             <Navbar.Brand href="/">
               <span className="logo">AT</span>
               <span className="text">tech</span>
