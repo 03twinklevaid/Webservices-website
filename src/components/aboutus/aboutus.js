@@ -4,33 +4,31 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Aos from 'aos';
+import { Sections } from '../../shared/js/constants';
 
 class About extends Component {
   constructor() {
     super();
   }
-  
+
   componentWillReceiveProps() {
     Aos.refresh();
   }
-  
+
   render() {
     return (
-      <div className="about-us row">
+      <div className="about-us" data-section={Sections.AboutUs}>
         <Container>
           <Row>
-            <Col md="12" className="text-left" data-aos="fade-up">
-              <h1>Overview</h1>
-              <hr />
+            {/* <Col md="12" data-aos="fade-up">
+              <h1 className="about-us__heading">Overview</h1>
+            </Col> */}
+            <Col md="12" className="about-us__text" data-aos="fade-left" data-aos-delay="500">
+              Leading digital agency with solid design and development expertise. We build websites, mobile applications, and elaborate online business services.
             </Col>
-            <div>
-              <Col md="7" className="about-us__text" data-aos="fade-up">
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem.
-                          </p>
-              </Col>
-
-            </div>
+            <Col md="12" className="about-us__image" data-aos="fade-right" data-aos-delay="1000">
+              <img src={require('../../images/mockup3.png')} alt="About Us" className="img-fluid"/>
+            </Col>
           </Row>
         </Container>
       </div>

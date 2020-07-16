@@ -12,70 +12,70 @@
   background-image: linear-gradient( -25deg,#5ac7cc 20%, #113745 20%);
 } */
 
-.home-image {
-    background-image: linear-gradient(45deg, #5dced2 20%, #5ac7cc 20%, #113745 20%);
-    /* background-image: linear-gradient(127deg, #384dff 0%, #24cdff 91%); */
-    padding: 30px;
-    box-shadow: 0px 10px 15px #5ac7cc;
-    margin-bottom: 50px;
+// .home-image {
+//     background-image: linear-gradient(45deg, #5dced2 20%, #5ac7cc 20%, #113745 20%);
+//     /* background-image: linear-gradient(127deg, #384dff 0%, #24cdff 91%); */
+//     padding: 30px;
+//     box-shadow: 0px 10px 15px #5ac7cc;
+//     margin-bottom: 50px;
 
-}
+// }
 
-.home-image {
-    position: relative;
-}
+// .home-image {
+//     position: relative;
+// }
 
-.home-image img {
-    width: 50%;
-    margin-top: 56px;
-}
+// .home-image img {
+//     width: 50%;
+//     margin-top: 56px;
+// }
 
-.home-image-overlay-typewriter {
-    position: absolute;
-    top: 25%;
-    left: 0%;
-}
+// .home-image-overlay-typewriter {
+//     position: absolute;
+//     top: 25%;
+//     left: 0%;
+// }
 
-.home-image-overlay-typewriter h6 {
-    color: #113745 !important;
-    overflow: hidden;
-    /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #113745;
-    /* The typwriter cursor */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
-    margin: 0 auto;
-    /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em;
-    /* Adjust as needed */
-    animation: typing 10s steps(40, end), blink-caret .4s step-end infinite;
-    animation-iteration-count: infinite;
-    /* The typing effect */
-}
+// .home-image-overlay-typewriter h6 {
+//     color: #113745 !important;
+//     overflow: hidden;
+//     /* Ensures the content is not revealed until the animation */
+//     border-right: .15em solid #113745;
+//     /* The typwriter cursor */
+//     white-space: nowrap;
+//     /* Keeps the content on a single line */
+//     margin: 0 auto;
+//     /* Gives that scrolling effect as the typing happens */
+//     letter-spacing: .15em;
+//     /* Adjust as needed */
+//     animation: typing 10s steps(40, end), blink-caret .4s step-end infinite;
+//     animation-iteration-count: infinite;
+//     /* The typing effect */
+// }
 
-@keyframes typing {
-    from {
-        width: 0
-    }
+// @keyframes typing {
+//     from {
+//         width: 0
+//     }
 
-    to {
-        width: 22%
-    }
-}
+//     to {
+//         width: 22%
+//     }
+// }
 
-/* The typewriter cursor effect */
+// /* The typewriter cursor effect */
 
-@keyframes blink-caret {
+// @keyframes blink-caret {
 
-    from,
-    to {
-        border-color: transparent
-    }
+//     from,
+//     to {
+//         border-color: transparent
+//     }
 
-    50% {
-        border-color: #113745;
-    }
-}
+//     50% {
+//         border-color: #113745;
+//     }
+// }
 
 .home-hr hr {
     margin: 20px 0 40px;
@@ -188,4 +188,26 @@
     &.active {
         bottom: 0;
     }
+}
+
+// NEW CSS.
+// TODO: REFACTOR EVERYTHING ABOVE THIS COMMENT
+
+.home {
+  // background-image: url('https://assets.website-files.com/5bfd1275cc56e15ce750b18e/5c289afb9a1575cb2f893a3b_15.%20Perfume.jpg');
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-attachment: fixed;
+
+  // &.slide-1 {
+  //   background-image: url('https://assets.website-files.com/5bfd1275cc56e15ce750b18e/5c289afb9a157570f2893a3f_17.%20Dark%20Salmon.jpg');
+  // }
+  // height: 100vh;
+  // overflow: hidden scroll;
+  // scroll-snap-type: both mandatory;
+  // scroll-padding: 1rem;
+
+  // & > div {
+  //   scroll-snap-align: start;
+  // }
 }

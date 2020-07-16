@@ -1,0 +1,148 @@
+@import '../../shared/scss/variables.scss';
+
+.banner {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url('../../images/mockup1.png') no-repeat;
+  background-size: 75%;
+  background-position: 145% 50%;
+  margin: 0 -15px;
+
+  .banner-content {
+    text-align: left;
+    @extend .white-text;
+    // text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.10);
+    // margin-top: 15%;
+    // margin-left: 5%;
+    
+    h1 {
+      font-weight: 600;
+    }
+
+    .big-text {
+      font-size: 4rem;
+    }
+
+    // .animated-text {
+    //   // display: none;
+    //   height: 50px;
+    //   overflow: hidden;
+      
+    //   h1 {
+    //     animation: slide-up-carousel 3s infinite;
+    //   }
+    // }
+
+    // @keyframes slide-up-carousel {
+    //   0%{
+    //     transform: translateY(0px);
+    //   }
+
+    //   25%{
+    //     transform: translateY(-50px);
+    //   }
+
+    //   50%{
+    //     transform: translateY(-100px);
+    //   }
+
+    //   75%{
+    //     transform: translateY(50px);
+    //   }
+
+    //   100%{
+    //     transform: translateY(50px);
+    //   }
+    // }
+
+    // .animated-text-wrapper {
+    //   position: relative;
+    //   width: 165px;
+    // }
+
+    // .animated-text {
+    //   display: inline-block;
+    //   background: black;
+    //   animation: clipping infinite 6s ease-in;
+
+    // }
+    // .animated-text-overlay {
+    //   background: white;
+    //   position: absolute;
+    //   top: 0;
+    //   bottom: 0;
+    //   left: 0;
+    //   right: 0;
+    //   animation: clip-after infinite 6s ease-in;
+    //   // animation-delay: 5s;
+    // }
+
+    // @keyframes clipping {
+    //   0%{
+    //     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); // |
+    //     visibility: hidden;
+    //   }
+
+    //   15%, 20%{
+    //     // clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); // |__|
+    //     visibility: hidden;
+    //   }
+
+    //   30%{
+    //     // clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); // :::|
+    //     visibility: hidden;
+    //   }
+
+    //   35%{
+    //     // clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); // |
+    //     visibility: hidden;
+    //   }
+
+    //   41%{
+    //     clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%); // |__|
+    //     visibility: hidden;
+    //   }
+
+    //   50%{
+    //     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); // :::|
+    //     visibility: visible;
+    //   }
+
+    //   51%, 100%{
+    //     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); // |
+    //     visibility: visible;
+    //   }
+    // }
+
+    // @keyframes clip-after{
+    //   0%{
+    //     clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%); // |
+    //   }
+
+    //   15%, 20%{
+    //     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); // |__|
+    //   }
+
+    //   30%{
+    //     clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%); // :::|
+    //   }
+
+    //   35%{
+    //     clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%); // |
+    //   }
+
+    //   41%{
+    //     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); // |__|
+    //   }
+
+    //   50%{
+    //     clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%); // :::|
+    //   }
+
+    //   51%, 100%{
+    //     clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%); // |
+    //   }
+    // }
+  }
+}

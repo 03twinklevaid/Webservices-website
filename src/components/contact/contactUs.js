@@ -4,10 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Aos from 'aos';
+import { Sections } from '../../shared/js/constants';
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <div className="contact" data-section={Sections.AboutUs}>
             <div className="contact-banner" >
                 <Container>
                     <Col md="12" className="text-right contact-banner__text"  data-aos="fade-right">

@@ -16,7 +16,7 @@ class Navigation extends Component {
         window.addEventListener('scroll', () => {
             if(window.scrollY > 520) {
                 this.setState({
-                    activeClass: 'header-bg'
+                    // activeClass: 'header-bg'
                 })
             }
             else if(window.scrollY < 520) {
@@ -39,7 +39,7 @@ class Navigation extends Component {
                   <Nav.Link href="#home">HOME</Nav.Link>
                   <Nav.Link href="#link">ABOUT US</Nav.Link>
                   <Nav.Link href="#services">SERVICES</Nav.Link>
-                  <Button variant="outline-success ml-2">CONTACT US</Button>
+                  <Nav.Link href="#contact-us">CONTACT US</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
